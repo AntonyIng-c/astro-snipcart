@@ -7,9 +7,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs": "cd packages/documentation && pnpm run dev && cd -",
-    "playground": "cd packages/playground && pnpm run dev && cd -"
+    "playground": "cd packages/playground && pnpm run dev && cd -",
+    "dev": "cd packages/playground && astro dev"
   },
   "keywords": [],
   "author": "Lloyd Atkinson",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.2",
+    "@lloydjatkinson/astro-snipcart-design-system": "^0.3.0",
+    "@tailwindcss/forms": "^0.5.9",
+    "@tailwindcss/typography": "^0.5.15",
+    "astro": "^4.0.0",
+    "dotenv": "^16.4.5"
+  }
 }
